@@ -1,0 +1,20 @@
+#.gitignore file
+
+Win8Debug/
+Win8Release/
+Win7Debug/
+Win7Release/
+VistaDebug/
+VistaRelease/
+Debug/
+Release/
+ipch/
+
+
+
+*.user
+*.swp
+*.suo
+*.sdf
+*.opensdf
+
