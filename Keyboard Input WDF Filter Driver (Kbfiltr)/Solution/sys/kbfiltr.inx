@@ -29,11 +29,13 @@ DefaultDestDir   = 12
 
 ; For Win2K
 [DDK_Ex.Mfg]
-%DDK_Ex% = kbfiltr, *PNP0BAAD
+;%DDK_Ex% = kbfiltr, *PNP0BAAD
+%DDK_Ex% = kbfiltr, *PNP0303
 
 ; For XP and above
 [DDK_Ex.Mfg.NT$ARCH$]
-%DDK_Ex% = kbfiltr, *PNP0BAAD
+;%DDK_Ex% = kbfiltr, *PNP0BAAD
+%DDK_Ex% = kbfiltr, *PNP0303
 
 ;
 ; General installation section
